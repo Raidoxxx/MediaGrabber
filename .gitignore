@@ -1,0 +1,39 @@
+# Ignorar arquivos de configuração e credenciais
+*.json
+safe/
+# Ignorar credenciais do Google Cloud (substitua "seu-arquivo.json" pelo nome do seu arquivo de credenciais, se necessário)
+keys.json
+
+# Ignorar pastas comuns do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignorar ambientes virtuais
+venv/
+.env/
+.venv/
+
+# Ignorar arquivos de configuração de IDEs
+.vscode/
+.idea/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar pastas de cache
+.cache/
+*.egg-info/
+
+# Ignorar arquivos de compilação
+build/
+dist/
+
+# Ignorar arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de saída de execução
+output/
+videos/
