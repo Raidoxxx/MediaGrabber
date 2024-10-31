@@ -69,7 +69,7 @@ def download_file(session_id):
 
 
 def cleanup_old_files(delay=60):
-    time.sleep(10) # Não sei pq coloquei aqui, mas funcionou
+    time.sleep(60) # Não sei pq coloquei aqui, mas funcionou
     while True:
         now = time.time()
         for filename in os.listdir(DOWNLOAD_FOLDER):
