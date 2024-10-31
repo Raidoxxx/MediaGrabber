@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 client_status = {}
 
-DOWNLOAD_FOLDER = "videos/base"
+DOWNLOAD_FOLDER = "/app/videos/base"
 
 
 if not os.path.exists(DOWNLOAD_FOLDER):
