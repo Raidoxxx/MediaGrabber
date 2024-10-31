@@ -12,6 +12,9 @@ client_status = {}
 DOWNLOAD_FOLDER = "videos/base"
 
 
+if not os.path.exists(DOWNLOAD_FOLDER):
+    os.makedirs(DOWNLOAD_FOLDER)
+
 @app.route('/')
 def home():
     return render_template('index.html')
