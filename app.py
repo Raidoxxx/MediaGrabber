@@ -88,5 +88,5 @@ def cleanup_old_files(delay=60):
 cleanup_thread = threading.Thread(target=cleanup_old_files, daemon=True)
 cleanup_thread.start()
 
-if __name__ == "__main__":
-    app.run(debug=True)
+if __name__ == '__main__':
+    app.run(debug=True, host="0.0.0.0")
